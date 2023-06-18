@@ -86,13 +86,11 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .contact-info__block--center {
   justify-content: center;
-  align-items: center;
 }
 
 .contact-info__item {
@@ -118,16 +116,8 @@ body {
 }
 
 .contact-info__item-icon {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: gray;
-
   height: 1.1428rem;
   vertical-align: text-bottom;
-
-  
 }
 
 .contact-info__avatar {
@@ -139,18 +129,9 @@ body {
   border-color: var(--text-decoration-color);
 }
 
-.contact-icon_style {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: gray;
-}
-
 .intro {
   display: flex;
-  flex-direction: column;
   justify-content: start;
-  width: 100%;
 }
 
 .intro__icon-wrapper {
@@ -172,8 +153,6 @@ body {
 .intro_text {
   color: var(--secondary-text-color);
   text-align: justify;
-
-  margin-bottom: 10px;
 }
 
 .skills__header {
